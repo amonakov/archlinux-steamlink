@@ -3,7 +3,7 @@
 Running Arch Linux ARM on the Steam Link.  
 Yes, *running* - no puny chroot.  
 
-The Steam Link has ~256MiB of RAM (unlike what Wikipedia says),  
+The Steam Link has 512 MiB of physical RAM (with 256 permanently reserved for graphical subsystems by the vendor; upstream devicetree makes all 512 available to Linux),  
 and a Marvell ARMv7 CPU (1 Core, 1 Thread) (`MV88DE3108`).  
 
 Directly booting a custom image has been made [/harder/](https://github.com/ValveSoftware/steamlink-sdk/issues/5) due to contractual requirements.  
